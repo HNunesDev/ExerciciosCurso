@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For", "ExerciciosCurso\For.csproj", "{8A5E727B-5F10-47EE-A62C-D2FA5B08F241}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "For", "ExerciciosCurso\For.csproj", "{8A5E727B-5F10-47EE-A62C-D2FA5B08F241}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "While", "While\While.csproj", "{36353D46-9F29-4DF0-9E42-0BBE4DD3D806}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "While", "While\While.csproj", "{36353D46-9F29-4DF0-9E42-0BBE4DD3D806}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "If", "If\If.csproj", "{609E6FD5-3BE9-451F-9D37-1E4255737D86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "If", "If\If.csproj", "{609E6FD5-3BE9-451F-9D37-1E4255737D86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrientadoObjeto", "OrientadoObjeto\OrientadoObjeto.csproj", "{BC8D5A5B-FBE3-47C6-848F-000D5E44A12D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{609E6FD5-3BE9-451F-9D37-1E4255737D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{609E6FD5-3BE9-451F-9D37-1E4255737D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{609E6FD5-3BE9-451F-9D37-1E4255737D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC8D5A5B-FBE3-47C6-848F-000D5E44A12D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC8D5A5B-FBE3-47C6-848F-000D5E44A12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC8D5A5B-FBE3-47C6-848F-000D5E44A12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC8D5A5B-FBE3-47C6-848F-000D5E44A12D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
