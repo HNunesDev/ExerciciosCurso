@@ -11,9 +11,13 @@ Y.A = double.Parse(Console.ReadLine());
 Y.B = double.Parse(Console.ReadLine());
 Y.C = double.Parse(Console.ReadLine());
 double p = (X.A + X.B + X.C) / 2.0;
+
 double areaX = Math.Sqrt(p * (p - X.A) * (p - X.B) * (p - X.C));
+
 p = (Y.A + Y.B + Y.C) / 2.0;
+
 double areaY = Math.Sqrt(p * (p - Y.A) * (p - Y.B) * (p - Y.C));
+
 Console.WriteLine("Área de X = " + areaX.ToString("F4"));
 Console.WriteLine("Área de Y = " + areaY.ToString("F4"));
 if (areaX > areaY)
