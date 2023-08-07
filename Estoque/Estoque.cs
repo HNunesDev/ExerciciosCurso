@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
 using Estoque;
 Sistema sistema = new Sistema();
 
@@ -13,3 +13,14 @@ double estoque = sistema.ValorEmEstoque();
 
 Console.WriteLine("Dados do produto: " + sistema);
 
+Console.Write("Quantos produtos chegaram?");
+int novaQuantidade =  int.Parse(Console.ReadLine());
+sistema.AdicionarProduto(novaQuantidade);
+
+Console.WriteLine("Dados do produto: " + sistema);
+
+Console.Write("Quantos produtos sairam?");
+int quantidadeFinal = int.Parse(Console.ReadLine());
+sistema.RemoverProduto(quantidadeFinal);
+
+Console.WriteLine("Dados do produto: " + sistema);
