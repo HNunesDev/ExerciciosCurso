@@ -11,7 +11,7 @@ Console.Write("Quantidade: ");
 sistema.Quantidade = int.Parse(Console.ReadLine());
 double estoque = sistema.ValorEmEstoque();
 
-Console.WriteLine("Dados do produto: " + sistema);
+Console.WriteLine("Dados atualizados: " + sistema);
 
 Console.Write("Quantos produtos chegaram?");
 int novaQuantidade =  int.Parse(Console.ReadLine());
@@ -23,4 +23,4 @@ Console.Write("Quantos produtos sairam?");
 int quantidadeFinal = int.Parse(Console.ReadLine());
 sistema.RemoverProduto(quantidadeFinal);
 
-Console.WriteLine("Dados do produto: " + sistema);
+Console.WriteLine("Dados atualizados: " + sistema);
