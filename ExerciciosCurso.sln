@@ -11,11 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "If", "If\If.csproj", "{609E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrientadoObjeto", "OrientadoObjeto\OrientadoObjeto.csproj", "{BC8D5A5B-FBE3-47C6-848F-000D5E44A12D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro", "Cadastro\Cadastro.csproj", "{3EBC023B-FF6D-4C00-AD49-46F1374455F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastro", "Cadastro\Cadastro.csproj", "{3EBC023B-FF6D-4C00-AD49-46F1374455F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salário", "Salário\Salário.csproj", "{335CFC80-42C3-4E15-AEB4-9953336ACFF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Salário", "Salário\Salário.csproj", "{335CFC80-42C3-4E15-AEB4-9953336ACFF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estoque", "Estoque\Estoque.csproj", "{4A5FC002-8ACA-4671-A719-63DA5B64DE75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estoque", "Estoque\Estoque.csproj", "{4A5FC002-8ACA-4671-A719-63DA5B64DE75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Retangulo", "Retangulo\Retangulo.csproj", "{5D6BB7E5-29B8-40B7-A4B0-D01650DD6099}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{4A5FC002-8ACA-4671-A719-63DA5B64DE75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A5FC002-8ACA-4671-A719-63DA5B64DE75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A5FC002-8ACA-4671-A719-63DA5B64DE75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D6BB7E5-29B8-40B7-A4B0-D01650DD6099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D6BB7E5-29B8-40B7-A4B0-D01650DD6099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D6BB7E5-29B8-40B7-A4B0-D01650DD6099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D6BB7E5-29B8-40B7-A4B0-D01650DD6099}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
