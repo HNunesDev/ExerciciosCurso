@@ -3,7 +3,7 @@ using System.Net.Http.Headers;
 
 Notas AlunoUm = new Notas();
 
-Console.WriteLine("Entre com o nome do aluno e suas três notas: ");
+Console.WriteLine("Entre com o nome do aluno e as três notas dele: ");
 Console.Write("Nome: ");
 AlunoUm.Nome = Console.ReadLine();
 Console.Write("Primeira nota: ");
