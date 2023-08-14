@@ -1,26 +1,28 @@
 ﻿
 using Estoque;
-Sistema sistema = new Sistema();
 
 Console.WriteLine("Entre com os dados do produto: ");
 Console.Write("Nome: ");
-sistema.Nome = Console.ReadLine();
+string nome = Console.ReadLine();
 Console.Write("Preço: ");
-sistema.Preco = double.Parse(Console.ReadLine());
+double preco = double.Parse(Console.ReadLine());
 Console.Write("Quantidade: ");
-sistema.Quantidade = int.Parse(Console.ReadLine());
-double estoque = sistema.ValorEmEstoque();
+int quantidade = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Dados atualizados: " + sistema);
+Sistema system = new Sistema(nome, preco, quantidade);
+
+double estoque = system.ValorEmEstoque();
+
+Console.WriteLine("Dados atualizados: " + system);
 
 Console.Write("Quantos produtos chegaram?");
 int novaQuantidade =  int.Parse(Console.ReadLine());
-sistema.AdicionarProduto(novaQuantidade);
+system.AdicionarProduto(novaQuantidade);
 
-Console.WriteLine("Dados do produto: " + sistema);
+Console.WriteLine("Dados do produto: " + system);
 
 Console.Write("Quantos produtos sairam?");
 int quantidadeFinal = int.Parse(Console.ReadLine());
-sistema.RemoverProduto(quantidadeFinal);
+system.RemoverProduto(quantidadeFinal);
 
-Console.WriteLine("Dados atualizados: " + sistema);
+Console.WriteLine("Dados atualizados: " + system);

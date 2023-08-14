@@ -8,6 +8,13 @@ namespace Estoque
         public double Preco;
         public int Quantidade;
 
+        public Sistema (string nome, double preco, int quantidade)
+        {
+            Nome = nome;
+            Preco = preco;
+            Quantidade = quantidade;
+        }
+
         public double ValorEmEstoque()
         {
             return Preco * Quantidade;
