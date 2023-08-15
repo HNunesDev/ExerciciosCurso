@@ -18,8 +18,7 @@ namespace Estoque
         public string Nome
         {
             get { return Nome; }
-            set {
-                if (value != null && value.Length > 1)
+            set { if (value != null && value.Length > 1)
                 {
                     _nome = value;
                 }
