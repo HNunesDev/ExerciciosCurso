@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalarioImposto", "SalarioIm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aluno", "Aluno\Aluno.csproj", "{33DF6270-AE52-4957-844C-FC3C15903CCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversorDeMoeda", "ConversorDeMoeda\ConversorDeMoeda.csproj", "{D34E848D-EAA6-4066-88BF-F2DF04C8072F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversorDeMoeda", "ConversorDeMoeda\ConversorDeMoeda.csproj", "{D34E848D-EAA6-4066-88BF-F2DF04C8072F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaBancária", "ContaBancária\ContaBancária.csproj", "{23D7BD52-CCB2-4B58-8084-F09B5A668C95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{D34E848D-EAA6-4066-88BF-F2DF04C8072F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D34E848D-EAA6-4066-88BF-F2DF04C8072F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D34E848D-EAA6-4066-88BF-F2DF04C8072F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D7BD52-CCB2-4B58-8084-F09B5A668C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D7BD52-CCB2-4B58-8084-F09B5A668C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D7BD52-CCB2-4B58-8084-F09B5A668C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D7BD52-CCB2-4B58-8084-F09B5A668C95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
