@@ -5,14 +5,14 @@ namespace Estoque
     internal class Sistema
     {
         private string _nome;
-        private double _preco;
-        private int _quantidade;
+        public double Preco { get; private set; }
+        public int Quantidade { get; private set; }
 
         public Sistema(string nome, double preco, int quantidade)
         {
             _nome = nome;
-            _preco = preco;
-            _quantidade = quantidade;
+            Preco = preco;
+            Quantidade = quantidade;
         }
 
         public string Nome
@@ -24,33 +24,26 @@ namespace Estoque
                 }
             }
         }
-        public double Preco
-        {
-            get { return _preco; }
-        }
-        public double Quantidade
-        {
-            get { return _quantidade; }
-        }
+
 
         public double ValorEmEstoque()
         {
-            return _preco * _quantidade;
+            return Preco * Quantidade;
         }
 
         public void AdicionarProduto(int valor)
         {
-            _quantidade = _quantidade + valor;
+            Quantidade = Quantidade + valor;
         }
 
         public void RemoverProduto(int valor)
         {
-            _quantidade = _quantidade - valor;
+            Quantidade = Quantidade - valor;
         }
 
         public override string ToString()
         {
-            return _nome + ", $" + _preco + ", " + _quantidade + " unidades, Valor total $ " + ValorEmEstoque().ToString("F2");
+            return _nome + ", $" + Preco + ", " + Quantidade + " unidades, Valor total $ " + ValorEmEstoque().ToString("F2");
         }
    
     }
