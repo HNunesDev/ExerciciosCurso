@@ -13,7 +13,7 @@
         }
         public override string ToString()
         {
-            return "Conta: " + Numero + ", titular: " + Titular + ", Saldo: R$ " + Saldo.ToString("F2");
+            return "Conta: " + Numero + ", titular: " + Titular + ", Saldo: R$" + Saldo.ToString("F2");
         }
         public Sistema(int conta, string nome, double deposito) : this(conta, nome) {
             AdicionarSaldo(deposito);
