@@ -15,7 +15,7 @@ double estoque = system.ValorEmEstoque();
 
 Console.WriteLine("Dados atualizados: " + system);
 
-Console.Write("Quantos produtos chegaram?");
+Console.Write("Quantos produtos chegaram? ");
 int novaQuantidade =  int.Parse(Console.ReadLine());
 system.AdicionarProduto(novaQuantidade);
 
